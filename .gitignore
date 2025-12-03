@@ -1,0 +1,27 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+
+# Old/draft files (keep repo clean)
+project.zip
+cleraRL_draft1_cs175_final_project.pdf
+final_project_notebook_test.pdf
+FinalReport.md
+

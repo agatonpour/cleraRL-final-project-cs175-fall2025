@@ -1,0 +1,21 @@
+# CS 175 Final Project - Required Dependencies
+# Install with: pip install -r requirements.txt
+
+# Core Data Science
+numpy>=1.24.0
+pandas>=2.0.0
+
+# Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Jupyter Notebook
+jupyter>=1.0.0
+notebook>=7.0.0
+nbconvert>=7.0.0
+
+# Optional: For running the full Clera system (not required for demo)
+# openai>=1.0.0
+# langchain>=0.1.0
+# supabase>=2.0.0
+
