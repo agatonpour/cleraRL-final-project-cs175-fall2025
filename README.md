@@ -135,15 +135,6 @@ The notebook generates **synthetic training data** based on real Clera productio
 
 ---
 
-## References
-
-1. Mnih et al. (2013). Playing Atari with Deep Reinforcement Learning. *arXiv*.
-2. Sutton & Barto (2018). Reinforcement Learning: An Introduction. *MIT Press*.
-3. Pomerleau (1991). Efficient Training of Artificial Neural Networks for Autonomous Navigation. *Neural Computation*.
-4. Lewis et al. (2020). Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks. *NeurIPS*.
-
----
-
 ## Contact
 
 For questions about this project, please contact:
