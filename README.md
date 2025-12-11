@@ -44,7 +44,7 @@ pip install -r requirements.txt
 
 ---
 
-## Running the Demo
+## Running the Notebook
 
 ### Option 1: Jupyter Notebook (Recommended)
 ```bash
@@ -59,26 +59,43 @@ Open `project.html` in any web browser to see the executed notebook with all out
 
 ---
 
+## Note: 
+A demonstration demonstration, apart from the displayed behaviour through diagrams etc in appendix, is included in the repository.
+
 ## Project Structure
 
 ```
-cleraRL-final-project-cs175-fall2025/
-├── README.md                 # This file - setup instructions
-├── requirements.txt          # Python dependencies
-├── project.ipynb             # Main demo notebook (RUNNABLE)
-├── project.html              # Pre-rendered notebook output
-├── fall2025-cs175-cleraRL.pdf # Final report (PDF)
-├── src/                      # Source code modules
-│   ├── __init__.py           # Interfaces (IEmbeddingProvider, IMemoryStore)
-│   ├── embedding_provider.py # OpenAI text-embedding-3-small integration
-│   ├── memory_store.py       # PostgreSQL + pgvector storage
-│   ├── memory_manager.py     # High-level memory orchestration
-│   ├── agent_wrapper.py      # Decorator pattern for agent integration
-│   ├── memory_graph.py       # LangGraph workflow integration
-│   ├── rl_routes.py          # FastAPI endpoints for feedback
-│   ├── generate_synthetic_data.py  # Training data generation
-│   └── evaluate_rl_system.py # Evaluation metrics
-└── *.png                     # Visualization outputs
+Project/
+├── README.md                        # This file - setup instructions
+├── requirements.txt                 # Python dependencies
+├── project.ipynb                    # Main demo notebook (RUNNABLE)
+├── project.html                     # Pre-rendered notebook output
+├── FinalReport.pdf                  # Final CS175 report (PDF)
+│
+├── src/                             # Source code modules
+│   ├── __init__.py                  # Interfaces (IEmbeddingProvider, IMemoryStore)
+│   ├── embedding_provider.py        # OpenAI text-embedding-3-small integration
+│   ├── memory_store.py              # PostgreSQL + pgvector storage
+│   ├── memory_manager.py            # High-level memory orchestration
+│   ├── agent_wrapper.py             # Decorator pattern for agent integration
+│   ├── memory_graph.py              # LangGraph workflow integration
+│   ├── rl_routes.py                 # FastAPI endpoints for feedback
+│   ├── generate_synthetic_data.py   # Training data generation
+│   └── evaluate_rl_system.py        # Evaluation metrics
+│
+├── flowchart.png                    # System architecture (Method Overview)
+├── example_conversations.png        # Example successful/failed Clera interactions
+├── experience_replay.png            # Experience replay illustration
+├── feedback_distribution.png        # User feedback satisfaction visualization
+├── learning_metrics.png             # Achieved vs Target learning metrics
+├── memory_accumulation.png          # Memory growth over 2-week deployment
+├── rl_loop.png                      # Reinforcement learning loop diagram
+├── standard_rag_vs_reward_weighted_retrieval.png  # RAG vs reward-weighted comparison
+│
+├── fall25-cs175-clera-agent-demo.mp4  # (Optional) Demo video of Clera RL system
+│
+└── venv/                            # Python virtual environment (not included)
+
 ```
 
 ---
