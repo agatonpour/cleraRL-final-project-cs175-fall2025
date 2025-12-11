@@ -3,7 +3,7 @@
 <html lang="en">
 <head><meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>project2</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
+<title>project</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <style type="text/css">
     pre { line-height: 125%; }
 td.linenos .normal { color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px; }
@@ -7540,7 +7540,7 @@ Agaton Pourshahidi, ajpoursh, ajpoursh@uci.edu <br/>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [54]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [21]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Setup and Imports</span>
@@ -7549,12 +7549,9 @@ Agaton Pourshahidi, ajpoursh, ajpoursh@uci.edu <br/>
 <span class="kn">import</span><span class="w"> </span><span class="nn">matplotlib.pyplot</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">plt</span><span class="o">,</span><span class="w"> </span><span class="nn">seaborn</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">sns</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">datetime</span><span class="w"> </span><span class="kn">import</span> <span class="n">datetime</span><span class="p">,</span> <span class="n">timedelta</span>
 
-<span class="c1"># Set random seed for reproducibility</span>
-<span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">seed</span><span class="p">(</span><span class="mi">42</span><span class="p">)</span>
-<span class="n">random</span><span class="o">.</span><span class="n">seed</span><span class="p">(</span><span class="mi">42</span><span class="p">)</span>
+<span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">seed</span><span class="p">(</span><span class="mi">42</span><span class="p">);</span> <span class="n">random</span><span class="o">.</span><span class="n">seed</span><span class="p">(</span><span class="mi">42</span><span class="p">)</span>
 <span class="n">sns</span><span class="o">.</span><span class="n">set_style</span><span class="p">(</span><span class="s1">'whitegrid'</span><span class="p">)</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">rcParams</span><span class="p">[</span><span class="s1">'figure.figsize'</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="mi">14</span><span class="p">,</span> <span class="mi">6</span><span class="p">)</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">rcParams</span><span class="p">[</span><span class="s1">'font.size'</span><span class="p">]</span> <span class="o">=</span> <span class="mi">11</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">rcParams</span><span class="p">[</span><span class="s1">'figure.figsize'</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="mi">14</span><span class="p">,</span> <span class="mi">6</span><span class="p">);</span> <span class="n">plt</span><span class="o">.</span><span class="n">rcParams</span><span class="p">[</span><span class="s1">'font.size'</span><span class="p">]</span> <span class="o">=</span> <span class="mi">11</span>
 <span class="nb">print</span><span class="p">(</span><span class="s1">'CS 175 Final Project - Clera RL System'</span><span class="p">)</span>
 <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s1">'Notebook executed: </span><span class="si">{</span><span class="n">datetime</span><span class="o">.</span><span class="n">now</span><span class="p">()</span><span class="o">.</span><span class="n">strftime</span><span class="p">(</span><span class="s2">"%Y-%m-</span><span class="si">%d</span><span class="s2"> %H:%M:%S"</span><span class="p">)</span><span class="si">}</span><span class="s1">'</span><span class="p">)</span>
 <span class="nb">print</span><span class="p">(</span><span class="s1">'All dependencies loaded successfully.'</span><span class="p">)</span>
@@ -7571,7 +7568,7 @@ Agaton Pourshahidi, ajpoursh, ajpoursh@uci.edu <br/>
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
 <pre>CS 175 Final Project - Clera RL System
-Notebook executed: 2025-12-10 15:56:39
+Notebook executed: 2025-12-11 14:35:19
 All dependencies loaded successfully.
 </pre>
 </div>
@@ -7674,12 +7671,11 @@ All dependencies loaded successfully.
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [55]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [22]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Generate synthetic training data (50 experiences over 2 weeks)</span>
 <span class="n">base_date</span> <span class="o">=</span> <span class="n">datetime</span><span class="p">(</span><span class="mi">2025</span><span class="p">,</span> <span class="mi">11</span><span class="p">,</span> <span class="mi">15</span><span class="p">)</span>
-<span class="c1"># Timestamps (weekday-heavy pattern)</span>
 <span class="n">daily_counts</span> <span class="o">=</span> <span class="p">[</span><span class="mi">3</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">6</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span><span class="mi">6</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">1</span><span class="p">]</span>  <span class="c1"># 50 total</span>
 <span class="n">timestamps</span> <span class="o">=</span> <span class="nb">sorted</span><span class="p">(</span>
     <span class="n">day</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="n">hour</span><span class="o">=</span><span class="n">random</span><span class="o">.</span><span class="n">randint</span><span class="p">(</span><span class="mi">9</span><span class="p">,</span><span class="mi">17</span><span class="p">),</span> <span class="n">minute</span><span class="o">=</span><span class="n">random</span><span class="o">.</span><span class="n">randint</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">59</span><span class="p">))</span>
@@ -7687,44 +7683,28 @@ All dependencies loaded successfully.
     <span class="k">for</span> <span class="n">day</span> <span class="ow">in</span> <span class="p">[</span><span class="n">base_date</span> <span class="o">+</span> <span class="n">timedelta</span><span class="p">(</span><span class="n">days</span><span class="o">=</span><span class="n">i</span><span class="p">)]</span>
     <span class="k">for</span> <span class="n">_</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">count</span><span class="p">)</span>
 <span class="p">)</span>
-<span class="c1"># Agent distribution (40/30/30)</span>
-<span class="n">agent_types</span> <span class="o">=</span> <span class="p">(</span>
-    <span class="p">[</span><span class="s1">'financial_analyst'</span><span class="p">]</span> <span class="o">*</span> <span class="mi">20</span> <span class="o">+</span>
-    <span class="p">[</span><span class="s1">'portfolio_manager'</span><span class="p">]</span> <span class="o">*</span> <span class="mi">15</span> <span class="o">+</span>
-    <span class="p">[</span><span class="s1">'trade_executor'</span><span class="p">]</span> <span class="o">*</span> <span class="mi">15</span>
-<span class="p">)</span>
+<span class="n">agent_types</span> <span class="o">=</span> <span class="p">([</span><span class="s1">'financial_analyst'</span><span class="p">]</span> <span class="o">*</span> <span class="mi">20</span> <span class="o">+</span> <span class="p">[</span><span class="s1">'portfolio_manager'</span><span class="p">]</span> <span class="o">*</span> <span class="mi">15</span> <span class="o">+</span> <span class="p">[</span><span class="s1">'trade_executor'</span><span class="p">]</span> <span class="o">*</span> <span class="mi">15</span><span class="p">)</span>
 <span class="n">random</span><span class="o">.</span><span class="n">shuffle</span><span class="p">(</span><span class="n">agent_types</span><span class="p">)</span>
-<span class="c1"># Feedback probabilities per agent type</span>
-<span class="n">prob_map</span> <span class="o">=</span> <span class="p">{</span>
-    <span class="s1">'financial_analyst'</span><span class="p">:</span> <span class="mf">0.75</span><span class="p">,</span>
-    <span class="s1">'portfolio_manager'</span><span class="p">:</span> <span class="mf">0.80</span><span class="p">,</span>
-    <span class="s1">'trade_executor'</span><span class="p">:</span> <span class="mf">0.93</span>
-<span class="p">}</span>
+<span class="n">prob_map</span> <span class="o">=</span> <span class="p">{</span><span class="s1">'financial_analyst'</span><span class="p">:</span> <span class="mf">0.75</span><span class="p">,</span> <span class="s1">'portfolio_manager'</span><span class="p">:</span> <span class="mf">0.80</span><span class="p">,</span> <span class="s1">'trade_executor'</span><span class="p">:</span> <span class="mf">0.93</span><span class="p">}</span>
 <span class="n">feedback_scores</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span> <span class="k">if</span> <span class="n">random</span><span class="o">.</span><span class="n">random</span><span class="p">()</span> <span class="o">&lt;</span> <span class="n">prob_map</span><span class="p">[</span><span class="n">a</span><span class="p">]</span> <span class="k">else</span> <span class="o">-</span><span class="mi">1</span> <span class="k">for</span> <span class="n">a</span> <span class="ow">in</span> <span class="n">agent_types</span><span class="p">]</span>
 
-<span class="c1"># Build DataFrame</span>
 <span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">({</span>
     <span class="s1">'experience_id'</span><span class="p">:</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">51</span><span class="p">),</span>
     <span class="s1">'timestamp'</span><span class="p">:</span> <span class="n">timestamps</span><span class="p">,</span>
     <span class="s1">'agent_type'</span><span class="p">:</span> <span class="n">agent_types</span><span class="p">,</span>
     <span class="s1">'feedback_score'</span><span class="p">:</span> <span class="n">feedback_scores</span>
 <span class="p">})</span>
-<span class="c1"># Summary</span>
-<span class="nb">print</span><span class="p">(</span><span class="s1">'='</span> <span class="o">*</span> <span class="mi">70</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="s1">'TRAINING DATA SUMMARY'</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="s1">'='</span> <span class="o">*</span> <span class="mi">70</span><span class="p">)</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="s1">'='</span> <span class="o">*</span> <span class="mi">70</span><span class="p">);</span> <span class="nb">print</span><span class="p">(</span><span class="s1">'TRAINING DATA SUMMARY'</span><span class="p">);</span> <span class="nb">print</span><span class="p">(</span><span class="s1">'='</span> <span class="o">*</span> <span class="mi">70</span><span class="p">)</span>
 <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s1">'Total Experiences: </span><span class="si">{</span><span class="nb">len</span><span class="p">(</span><span class="n">df</span><span class="p">)</span><span class="si">}</span><span class="s1">'</span><span class="p">)</span>
 <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s1">'Date Range: </span><span class="si">{</span><span class="n">df</span><span class="o">.</span><span class="n">timestamp</span><span class="o">.</span><span class="n">min</span><span class="p">()</span><span class="o">.</span><span class="n">date</span><span class="p">()</span><span class="si">}</span><span class="s1"> to </span><span class="si">{</span><span class="n">df</span><span class="o">.</span><span class="n">timestamp</span><span class="o">.</span><span class="n">max</span><span class="p">()</span><span class="o">.</span><span class="n">date</span><span class="p">()</span><span class="si">}</span><span class="s1">'</span><span class="p">)</span>
-<span class="n">pos</span> <span class="o">=</span> <span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">feedback_score</span> <span class="o">==</span> <span class="mi">1</span><span class="p">)</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span>
-<span class="n">neg</span> <span class="o">=</span> <span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">feedback_score</span> <span class="o">==</span> <span class="o">-</span><span class="mi">1</span><span class="p">)</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span>
+<span class="n">pos</span> <span class="o">=</span> <span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">feedback_score</span> <span class="o">==</span> <span class="mi">1</span><span class="p">)</span><span class="o">.</span><span class="n">sum</span><span class="p">();</span> <span class="n">neg</span> <span class="o">=</span> <span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">feedback_score</span> <span class="o">==</span> <span class="o">-</span><span class="mi">1</span><span class="p">)</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span>
 <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s1">'</span><span class="se">\n</span><span class="s1">Feedback Distribution:</span><span class="se">\n</span><span class="s1">  Positive: </span><span class="si">{</span><span class="n">pos</span><span class="si">}</span><span class="s1"> (</span><span class="si">{</span><span class="n">pos</span><span class="o">/</span><span class="nb">len</span><span class="p">(</span><span class="n">df</span><span class="p">)</span><span class="o">*</span><span class="mi">100</span><span class="si">:</span><span class="s1">.1f</span><span class="si">}</span><span class="s1">%)</span><span class="se">\n</span><span class="s1">  Negative: </span><span class="si">{</span><span class="n">neg</span><span class="si">}</span><span class="s1"> (</span><span class="si">{</span><span class="n">neg</span><span class="o">/</span><span class="nb">len</span><span class="p">(</span><span class="n">df</span><span class="p">)</span><span class="o">*</span><span class="mi">100</span><span class="si">:</span><span class="s1">.1f</span><span class="si">}</span><span class="s1">%)'</span><span class="p">)</span>
 <span class="nb">print</span><span class="p">(</span><span class="s1">'</span><span class="se">\n</span><span class="s1">Agent Distribution:'</span><span class="p">)</span>
 <span class="k">for</span> <span class="n">agent</span> <span class="ow">in</span> <span class="p">[</span><span class="s1">'financial_analyst'</span><span class="p">,</span><span class="s1">'portfolio_manager'</span><span class="p">,</span><span class="s1">'trade_executor'</span><span class="p">]:</span>
     <span class="n">count</span> <span class="o">=</span> <span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">agent_type</span> <span class="o">==</span> <span class="n">agent</span><span class="p">)</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span>
     <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s1">'  </span><span class="si">{</span><span class="n">agent</span><span class="si">}</span><span class="s1">: </span><span class="si">{</span><span class="n">count</span><span class="si">}</span><span class="s1"> (</span><span class="si">{</span><span class="n">count</span><span class="o">/</span><span class="nb">len</span><span class="p">(</span><span class="n">df</span><span class="p">)</span><span class="o">*</span><span class="mi">100</span><span class="si">:</span><span class="s1">.0f</span><span class="si">}</span><span class="s1">%)'</span><span class="p">)</span>
-
-<span class="nb">print</span><span class="p">(</span><span class="s1">'</span><span class="se">\n</span><span class="s1">Sample Data (first 10 rows):'</span><span class="p">)</span>
-<span class="n">df</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">10</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">'</span><span class="se">\n</span><span class="s1">Sample Data (first 10 rows):'</span><span class="p">);</span> <span class="n">df</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">10</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
@@ -7757,7 +7737,7 @@ Sample Data (first 10 rows):
 </div>
 </div>
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[55]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[22]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <div>
 <style scoped="">
@@ -7936,98 +7916,13 @@ Sample Data (first 10 rows):
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [56]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [23]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s1">'CLERA MULTI-AGENT ARCHITECTURE WITH RL MEMORY'</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="s2">"See Figure 1 in the Appendix for flowchart overview of the architecture"</span><span class="p">)</span>
-</pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>CLERA MULTI-AGENT ARCHITECTURE WITH RL MEMORY
-See Figure 1 in the Appendix for flowchart overview of the architecture
-</pre>
-</div>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [57]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Real conversation examples from Clera production system. These reflect actual tool calls and response patterns observed</span>
-<span class="nb">print</span><span class="p">(</span><span class="s1">'EXAMPLE CLERA CONVERSATIONS'</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="s2">"See Figure 2 in the Appendix for full example Clera conversations."</span><span class="p">)</span>
-</pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>EXAMPLE CLERA CONVERSATIONS
-See Figure 2 in the Appendix for full example Clera conversations.
-</pre>
-</div>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [58]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s1">'EXPERIENCE REPLAY DEMONSTRATION'</span><span class="p">)</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s2">"See Figure 1 in the Appendix for flowchart overview of the architecture"</span><span class="p">)</span>
+<span class="c1"># Real conversation examples from Clera production system. These reflect actual tool calls and response patterns observed</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"See Figure 2 in the Appendix for more full example Clera conversations."</span><span class="p">)</span>
 <span class="nb">print</span><span class="p">(</span><span class="s2">"See Figure 3 in the Appendix for the Experience Replay demonstration."</span><span class="p">)</span>
-</pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>EXPERIENCE REPLAY DEMONSTRATION
-See Figure 3 in the Appendix for the Experience Replay demonstration.
-</pre>
-</div>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [59]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s1">'STANDARD RAG vs REWARD-WEIGHTED RETRIEVAL'</span><span class="p">)</span>
 <span class="nb">print</span><span class="p">(</span><span class="s2">"See Figure 4 in the Appendix for the comparison of standard RAG vs reward-weighted retrieval."</span><span class="p">)</span>
 </pre></div>
 </div>
@@ -8041,8 +7936,60 @@ See Figure 3 in the Appendix for the Experience Replay demonstration.
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>STANDARD RAG vs REWARD-WEIGHTED RETRIEVAL
+<pre>See Figure 1 in the Appendix for flowchart overview of the architecture
+See Figure 2 in the Appendix for more full example Clera conversations.
+See Figure 3 in the Appendix for the Experience Replay demonstration.
 See Figure 4 in the Appendix for the comparison of standard RAG vs reward-weighted retrieval.
+</pre>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [24]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">experiences</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">([</span>
+    <span class="p">(</span><span class="s2">"A"</span><span class="p">,</span> <span class="mf">0.95</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="s2">"Too long / overwhelming."</span><span class="p">),</span>
+    <span class="p">(</span><span class="s2">"B"</span><span class="p">,</span> <span class="mf">0.88</span><span class="p">,</span> <span class="o">+</span><span class="mi">1</span><span class="p">,</span> <span class="s2">"Clear, concise recommendation."</span><span class="p">,</span>
+     <span class="s2">"AMD looks reasonable as a long-term buy; consider a small position due to volatility."</span><span class="p">)</span>
+<span class="p">],</span> <span class="n">columns</span><span class="o">=</span><span class="p">[</span><span class="s2">"ID"</span><span class="p">,</span><span class="s2">"Similarity"</span><span class="p">,</span><span class="s2">"Feedback"</span><span class="p">,</span><span class="s2">"Pattern"</span><span class="p">,</span><span class="s2">"Response"</span><span class="p">])</span>
+
+<span class="k">def</span><span class="w"> </span><span class="nf">clera_demo</span><span class="p">(</span><span class="n">query</span><span class="o">=</span><span class="s2">"Is AMD a good investment?"</span><span class="p">):</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">"=== CLERA RL LIVE DEMO ==="</span><span class="p">);</span> <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"User Query: </span><span class="si">{</span><span class="n">query</span><span class="si">}</span><span class="se">\n</span><span class="s2">"</span><span class="p">)</span>
+    <span class="n">ranked</span> <span class="o">=</span> <span class="n">experiences</span><span class="o">.</span><span class="n">sort_values</span><span class="p">([</span><span class="s2">"Feedback"</span><span class="p">,</span><span class="s2">"Similarity"</span><span class="p">],</span> <span class="n">ascending</span><span class="o">=</span><span class="p">[</span><span class="kc">False</span><span class="p">,</span> <span class="kc">False</span><span class="p">])</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">"Retrieved Experiences:"</span><span class="p">)</span>
+    <span class="k">for</span> <span class="n">_</span><span class="p">,</span> <span class="n">r</span> <span class="ow">in</span> <span class="n">ranked</span><span class="o">.</span><span class="n">iterrows</span><span class="p">():</span>
+        <span class="n">tag</span> <span class="o">=</span> <span class="s2">"LEARN FROM"</span> <span class="k">if</span> <span class="n">r</span><span class="o">.</span><span class="n">Feedback</span> <span class="o">==</span> <span class="mi">1</span> <span class="k">else</span> <span class="s2">"AVOID"</span>
+        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"  </span><span class="si">{</span><span class="n">tag</span><span class="si">}</span><span class="s2">: </span><span class="si">{</span><span class="n">r</span><span class="o">.</span><span class="n">ID</span><span class="si">}</span><span class="s2"> | sim=</span><span class="si">{</span><span class="n">r</span><span class="o">.</span><span class="n">Similarity</span><span class="si">}</span><span class="s2"> | reward=</span><span class="si">{</span><span class="n">r</span><span class="o">.</span><span class="n">Feedback</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+    <span class="n">best</span> <span class="o">=</span> <span class="n">ranked</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">"</span><span class="se">\n</span><span class="s2">Final Selected Pattern:"</span><span class="p">,</span> <span class="n">best</span><span class="o">.</span><span class="n">Pattern</span><span class="p">);</span> <span class="nb">print</span><span class="p">(</span><span class="s2">"Clera Response:"</span><span class="p">,</span> <span class="n">best</span><span class="o">.</span><span class="n">Response</span><span class="p">)</span>
+<span class="n">clera_demo</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>=== CLERA RL LIVE DEMO ===
+User Query: Is AMD a good investment?
+
+Retrieved Experiences:
+  LEARN FROM: B | sim=0.88 | reward=1
+  AVOID: A | sim=0.95 | reward=-1
+
+Final Selected Pattern: Clear, concise recommendation.
+Clera Response: AMD looks reasonable as a long-term buy; consider a small position due to volatility.
 </pre>
 </div>
 </div>
@@ -8113,7 +8060,7 @@ Matplotlib/Seaborn — plots</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [60]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [25]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Metric 1: Memory Accumulation Over Time  (Figure 2 in Appendix)</span>
@@ -8142,7 +8089,7 @@ See Figure 5 in the Appendix for the memory accumulation plot.
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [61]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [26]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Metric 2: User Satisfaction (Feedback Distribution)  (Figure 3 in Appendix)</span>
@@ -8171,7 +8118,7 @@ See Figure 6 in the Appendix for the feedback distribution and agent-wise satisf
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [62]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [27]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Metric 3: Achieved vs Target Comparison  (Figure 4 in Appendix)</span>
@@ -8200,7 +8147,7 @@ See Figure 7 in the Appendix for the Achieved vs Target bar chart.
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [63]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [28]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Reinforcement Learning Loop Summary  (Figure 5 in Appendix)</span>
